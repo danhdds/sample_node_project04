@@ -1,4 +1,4 @@
-const PORT = process.env.PORT || 5000; // 5000 on local env
+const PORT = process.env.PORT || 8080; // 5000 on local env
 
 const { appRouter } = require('./routes');
 
