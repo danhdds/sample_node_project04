@@ -2,9 +2,9 @@ htmlParserHelper = require('../helpers/htmlparser.js');
 
 exports.parseHtmlContent = (req, res) => {
 
-    htmlParserHelper.parseContent(req, res, function(content){
+    htmlParserHelper.parseContent(req, res, function(output){
       
-       res.send({ content: content });
+       res.send({ pages: output });
 
     });
     
